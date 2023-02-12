@@ -508,31 +508,31 @@ textarea.input-field {
 
 @media (min-width: 575px) {
 
-    /**
-    * REUSED STYLE
-    */
+  /**
+  * REUSED STYLE
+  */
 
-    .container {
+  .container {
     max-width: 540px;
     width: 100%;
     margin-inline: auto;
-    }
+  }
 
 
 
-    /**
-    * PROJECT
-    */
+  /**
+  * PROJECT
+  */
 
-    .project-card { --padding: 68px; }
+  .project-card { --padding: 68px; }
 
 
 
-    /**
-    * CONTACT
-    */
+  /**
+  * CONTACT
+  */
 
-    .contact-card { padding: 68px; }
+  .contact-card { padding: 68px; }      
 
 }
 
@@ -542,56 +542,56 @@ textarea.input-field {
 
 @media (min-width: 768px) {
 
-    /**
-    * REUSED STYLE
-    */
+  /**
+  * REUSED STYLE
+  */
 
-    .container { max-width: 720px; }
+  .container { max-width: 720px; }
 
-    .section-text { --fs-5: 2rem; }
+  .section-text { --fs-5: 2rem; }
 
-    /**
-    * PROJECT
-    */
+  /**
+  * PROJECT
+  */
 
-    .project .title-wrapper {
+  .project .title-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    }
+  }
 
-    .project .btn { min-width: max-content; }
+  .project .btn { min-width: max-content; }
 
 
 
-    /**
-    * CONTACT
-    */
+  /**
+  * CONTACT
+  */
 
-    .contact .section-text { --fs-5: 1.8rem; }
+  .contact .section-text { --fs-5: 1.8rem; }
 
-    .input-wrapper {
+  .input-wrapper {
     display: flex;
     align-items: center;
     gap: 20px;
-    }
+  }
 
 
 
-    /**
-    * FOOTER
-    */
+  /**
+  * FOOTER
+  */
 
-    .footer .container {
+  .footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+  }
 
-    .copyright { margin-block-end: 0; }
+  .copyright { margin-block-end: 0; }
 
-}
+  }
   
   
   
@@ -638,43 +638,43 @@ textarea.input-field {
 
     .navbar,
     .navbar.active {
-    all: unset;
-    display: flex;
-    flex-grow: 1;
+      all: unset;
+      display: flex;
+      flex-grow: 1;
     }
 
     .navbar-list {
-    display: flex;
-    gap: 36px;
-    margin-inline: auto;
+      display: flex;
+      gap: 36px;
+      margin-inline: auto;
     }
 
     .navbar-link {
-    color: var(--charcoal);
-    transition: var(--transition-1);
+      color: var(--charcoal);
+      transition: var(--transition-1);
     }
 
     .navbar-link:is(:hover, :focus-visible) { color: var(--cinnamon-satin); }
 
     .navbar .social-link {
-    color: var(--charcoal);
-    font-size: 1.8rem;
+      color: var(--charcoal);
+      font-size: 1.8rem;
     }
 
     .header {
-    top: 45px;
-    max-width: 960px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-inline: 16px;
-    border-radius: var(--radius-8);
+      top: 45px;
+      max-width: 960px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-inline: 16px;
+      border-radius: var(--radius-8);
     }
 
     .header.active {
-    top: 0;
-    left: 0;
-    max-width: unset;
-    border-radius: 0;
+      top: 0;
+      left: 0;
+      max-width: unset;
+      border-radius: 0;
     }
 
 
@@ -686,9 +686,9 @@ textarea.input-field {
     .hero { padding-block-start: calc(var(--section-padding) + 80px); }
 
     .hero .container {
-    grid-template-columns: 0.8fr 1fr;
-    align-items: center;
-    gap: 100px;
+      grid-template-columns: 0.8fr 1fr;
+      align-items: center;
+      gap: 100px;
     }
 
     .hero-content { text-align: left; }
@@ -701,8 +701,8 @@ textarea.input-field {
 
     .project-card-1,
     .project-card-2 {
-    flex-direction: row;
-    align-items: flex-end;
+      flex-direction: row;
+      align-items: flex-end;
     }
 
     :is(.project-card-1, .project-card-2) .card-content { width: 33.33%; }
@@ -720,9 +720,9 @@ textarea.input-field {
     */
 
     .contact-card {
-    grid-template-columns: 0.8fr 1fr;
-    align-items: center;
-    gap: 90px;
+      grid-template-columns: 0.8fr 1fr;
+      align-items: center;
+      gap: 90px;
     }
 
 }
